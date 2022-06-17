@@ -1,0 +1,52 @@
+.icon {
+  width: 0.9em;
+  height: 0.9em;
+}
+
+.link {
+  color: #303030;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+  transition: all 0.5s ease-in;
+
+  &:hover {
+    border-bottom-color: #303030;
+  }
+}
+
+.link-light {
+  color: #fff;
+
+  &:hover {
+    border-bottom-color: #fff;
+  }
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #303030;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  transition: opacity .5s;
+  text-transform: uppercase;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
