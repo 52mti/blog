@@ -1,5 +1,7 @@
 <template>
-  <h1>home page</h1>
+  <div>
+    <h1 v-for="i in 20" :key="i">home page</h1>
+  </div>
 </template>
 
 <script>
